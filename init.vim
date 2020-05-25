@@ -1,4 +1,4 @@
-" Just some basic stuff, WIP
+" I like it basic
 set encoding=UTF-8
 set nocompatible
 syntax on
