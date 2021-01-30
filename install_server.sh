@@ -1,10 +1,8 @@
-sudo apt install git neovim tmux -y
+sudo apt install curl git neovim tmux -y
 
 cd $HOME
-wget https://raw.githubusercontent.com/zurs/configs/master/.tmux.conf -O .tmux.conf
+curl https://raw.githubusercontent.com/zurs/configs/master/.tmux.conf > .tmux.conf
 
 mkdir config
-cd config
-mkdir nvim
-cd nvim
-wget https://raw.githubusercontent.com/zurs/configs/master/init.vim -O init.vim
+mkdir config/nvim
+wget -N https://raw.githubusercontent.com/zurs/configs/master/init.vim > config/nvim/init.vim
