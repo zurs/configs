@@ -6,4 +6,4 @@ tmux kill-server
 
 mkdir .config
 mkdir .config/nvim
-curl https://raw.githubusercontent.com/zurs/configs/master/init.vim > config/nvim/init.vim
+curl https://raw.githubusercontent.com/zurs/configs/master/init.vim > .config/nvim/init.vim
