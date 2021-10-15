@@ -3,7 +3,8 @@ set encoding=UTF-8
 set nocompatible
 syntax on
 
-set relativenumber
+set number relativenumber
+set nu rnu
 
 set statusline=
 set statusline+=\ %M
