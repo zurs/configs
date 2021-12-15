@@ -10,3 +10,7 @@ set statusline=
 set statusline+=\ %M
 set statusline+=\ %y
 set statusline+=%1*%=%5l%*/%2*/%L%*
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
